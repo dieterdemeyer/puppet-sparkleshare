@@ -1,13 +1,13 @@
-# Template Puppet Module for Boxen
+# Sparkleshare Puppet Module for Boxen
 
 [![Build Status](https://travis-ci.org/dieterdemeyer/puppet-sparkleshare.png?branch=master)](https://travis-ci.org/dieterdemeyer/puppet-sparkleshare)
+
+Install [Sparkleshare](http://sparkleshare.org/), self hosted, instant, secure file sync.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include sparkleshare
 ```
 
 ## Required Puppet Modules
